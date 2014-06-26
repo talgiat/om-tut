@@ -6,8 +6,6 @@
             [clojure.data :as data]
             [clojure.string :as string]))
 
-(enable-console-print!)
-
 (def app-state
   (atom
     {:contacts
